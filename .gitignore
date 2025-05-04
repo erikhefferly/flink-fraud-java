@@ -22,3 +22,29 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# Local dev files
+.bootstrap-checksum
+env/.env
+
+# Java project folders
+.project
+.settings/
+.idea/
+target/
+
+# Local .terraform directories
+**/.terraform/*
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# cqlsh binary
+cqlsh/
+cqlsh*.tar.gz*
+.vscode
+dependency-reduced-pom.xml
+*.versionsBackup
